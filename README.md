@@ -1,4 +1,4 @@
-# CodeShare
+# Eage_Education
 Eage_Education website is a learning plateform with different courses, tutors fully responsive Educational site.The major Tech Stack to build this is Html, Css, and JavaScript.
 
 # Features

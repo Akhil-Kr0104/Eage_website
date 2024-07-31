@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>watch</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <div class="logo">
+         <a href="home.html"><img src="images/logo (1).png" alt="" class="logoEage"></a>
+         <a href="home.html" class="eAge"> eAge</a>
+      </div>
+
+      <form action="search.html" method="post" class="search-form-head">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile-corner">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Akhil</h3>
+         <p class="role">student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn col">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fa-solid fa-square-xmark"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Akhil</h3>
+      <p class="role">student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+<section class="watch-video">
+
+   <div class="video-container">
+      <div class="video">
+         <video src="images/video.mp4" controls poster="images/post-1-1.png" id="video"></video>
+      </div>
+      <h3 class="title">Complete HTML tutorial (part 01)</h3>
+      <div class="info">
+         <p class="date"><i class="fas fa-calendar"></i><span>21-04-2024</span></p>
+         <p class="date"><i class="fas fa-heart"></i><span>47k likes</span></p>
+      </div>
+      <div class="tutor">
+         <img src="images/pic-2.jpg" alt="">
+         <div>
+            <h3>Marizan Capp</h3>
+            <span>Web Developer</span>
+         </div>
+      </div>
+      <form action="" method="post" class="flex">
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+         <button class="like"><i class="far fa-heart redcolor"></i><span>like</span></button>
+      </form>
+      <p class="description">
+         This course provides a comprehensive introduction to HTML (HyperText Markup Language), the standard language used to create web pages. Students will learn how to structure web content, use HTML elements and attributes, and build a strong foundation for further studies in web development.
+      </p>
+   </div>
+
+</section>
+
+<section class="comments">
+
+   <h1 class="heading">8k comments</h1>
+
+   <form action="" class="add-comment">
+      <h3>Add Comment</h3>
+      <textarea name="comment_box" placeholder="Write Here..." required maxlength="1000" cols="30" rows="10"></textarea>
+      <input type="submit" value="add comment" class="inline-btn" name="add_comment">
+   </form>
+
+   <h1 class="heading">user comments</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-1.jpg" alt="">
+            <div>
+               <h3>Akhil Kumar</h3>
+               <span>22-04-2024</span>
+            </div>
+         </div>
+         <div class="comment-box">this is a comment form you</div>
+         <form action="" class="flex-btn">
+            <input type="submit" value="edit comment" name="edit_comment" class="inline-option-btn">
+            <input type="submit" value="delete comment" name="delete_comment" class="inline-delete-btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-2.jpg" alt="">
+            <div>
+               <h3>Surya kumar yadav</h3>
+               <span>22-04-2024</span>
+            </div>
+         </div>
+         <div class="comment-box">awesome tutorial!
+            keep going!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-3.jpg" alt="">
+            <div>
+               <h3>Rohit sharma</h3>
+               <span>17-05-2024</span>
+            </div>
+         </div>
+         <div class="comment-box">amazing way of teaching!
+            thank you so much!
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-4.jpg" alt="">
+            <div>
+               <h3>Virat kohli</h3>
+               <span>19-05-2024</span>
+            </div>
+         </div>
+         <div class="comment-box">loved it, thanks for the tutorial!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-5.jpg" alt="">
+            <div>
+               <h3>Hardik pandya</h3>
+               <span>03-06-2024</span>
+            </div>
+         </div>
+         <div class="comment-box">this is what I have been looking for! thank you so much!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-2.jpg" alt="">
+            <div>
+               <h3>Kuldeep yadav</h3>
+               <span>26-06-2024</span>
+            </div>
+         </div>
+         <div class="comment-box">thanks for the tutorial!
+
+            how to download source code file?
+         </div>
+      </div>
+
+   </div>
+
+</section>
+<div class="footer-panel-list">
+   <div class="list1 set">
+       <ul>
+           <li class="li-1"><a href="#">Company</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Careers</a></li>
+           <li><a href="#">Press</a></li>
+           <li><a href="#">Affiliates</a></li>
+           <li><a href="#">Partnerships</a></li>
+           <li><a href="#">Blog</a></li>
+       </ul>
+   </div>
+   <div class="list2 set">
+       <ul>
+           <li class="li-1"><a href="#">Community</a></li>
+           <li><a href="#">Team Plans</a></li>
+           <li><a href="#">Refer a Friend</a></li>
+           <li><a href="#">Limited Memberships</a></li>
+           <li><a href="#">Scholarships</a></li>
+           <li><a href="#">Free Classes</a></li>
+       </ul>
+   </div>
+   <div class="list3 set">
+       <ul>
+           <li class="li-1"><a href="#">Teaching</a></li>
+           <li><a href="#">Become a Teacher</a></li>
+           <li><a href="#">Teacher Help Center</a></li>
+           <li><a href="#">Teacher Rules & Requirements</a></li>
+       </ul>
+   </div>
+   <div class="list4 set">
+       <ul>
+           <li class="li-1"><a href="#">Mobile</a></li>
+           <img src="images/Google play.jpg" alt="" class="app-class">
+           <img src="images/apple logo.jpg" alt="" class="app-class">
+       </ul>
+   </div>
+</div>
+<footer class="footer">
+
+   &copy; Copyright @ 2008-24 Eagetutor.com All rights reserved | Powered by EAGE EDUSOLUTIONS PVT LTD
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+   
+</body>
+</html>

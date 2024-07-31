@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>login</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <div class="logo">
+         <a href="home.html"><img src="images/logo (1).png" alt="" class="logoEage"></a>
+         <a href="home.html" class="eAge"> eAge</a>
+      </div>
+
+      <form action="search.html" method="post" class="search-form-head">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile-corner">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Akhil</h3>
+         <p class="role">student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn col">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fa-solid fa-square-xmark"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Akhil</h3>
+      <p class="role">student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+<section class="form-container">
+
+   <form action="" method="post" enctype="multipart/form-data">
+      <h3>User Login</h3>
+      <p>Email Address<span>*</span></p>
+      <input type="email" name="email" placeholder="Enter email Address" required maxlength="50" class="box">
+      <p>Password <span>*</span></p>
+      <input type="password" name="pass" placeholder="Enter password" required maxlength="20" class="box">
+      <input type="submit" value="login" name="submit" class="btn">
+   </form>
+
+</section>
+<div class="footer-panel-list">
+   <div class="list1 set">
+       <ul>
+           <li class="li-1"><a href="#">Company</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Careers</a></li>
+           <li><a href="#">Press</a></li>
+           <li><a href="#">Affiliates</a></li>
+           <li><a href="#">Partnerships</a></li>
+           <li><a href="#">Blog</a></li>
+       </ul>
+   </div>
+   <div class="list2 set">
+       <ul>
+           <li class="li-1"><a href="#">Community</a></li>
+           <li><a href="#">Team Plans</a></li>
+           <li><a href="#">Refer a Friend</a></li>
+           <li><a href="#">Limited Memberships</a></li>
+           <li><a href="#">Scholarships</a></li>
+           <li><a href="#">Free Classes</a></li>
+       </ul>
+   </div>
+   <div class="list3 set">
+       <ul>
+           <li class="li-1"><a href="#">Teaching</a></li>
+           <li><a href="#">Become a Teacher</a></li>
+           <li><a href="#">Teacher Help Center</a></li>
+           <li><a href="#">Teacher Rules & Requirements</a></li>
+       </ul>
+   </div>
+   <div class="list4 set">
+       <ul>
+           <li class="li-1"><a href="#">Mobile</a></li>
+           <img src="images/Google play.jpg" alt="" class="app-class">
+           <img src="images/apple logo.jpg" alt="" class="app-class">
+       </ul>
+   </div>
+</div>
+<footer class="footer">
+
+   &copy; Copyright @ 2008-24 Eagetutor.com All rights reserved | Powered by EAGE EDUSOLUTIONS PVT LTD
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
